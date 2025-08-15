@@ -1,4 +1,4 @@
-![MasterHead](https://i.pinimg.com/1200x/58/e0/11/58e0112e2a59f23e8a181c2ff2379eb5.jpg)
+[![ezgif-1817eafc6a2625.gif](https://i.postimg.cc/SQVXwWB9/ezgif-1817eafc6a2625.gif)](https://postimg.cc/z3bXhRXD)
 
 <h1 align="center">The Digital Brain Of Synaptara</h1>
 <h3 align="center">Neural Logic Meets Digital Innovation</h3>
