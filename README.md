@@ -8,7 +8,7 @@
 <p align="center">
   <i>Building secure, smart & scalable digital products.</i>  
   <br><br>
-  <a href="https://hustlehubkit.in">🌐 hustlehubkit.in</a> • 
+  <a href="https://hustlehubblueprint.vercel.app/">🌐 hustlehubkit.in</a> • 
   <a href="https://instagram.com/hustlehub_kit">📷 Instagram</a>
 </p>
 
