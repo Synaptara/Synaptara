@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://i.postimg.cc/6qL5fNCg/Header-Synaptara.jpg"  alt="Welcome to Synaptara" />
+  <img src="https://i.ibb.co/b5TkSQmQ/26afdaeacae446908770cac8f3b0648b.jpg" alt="Welcome to Synaptara"/>
 </p>
 
 <h1 align="center">⚡ Synaptara</h1>
