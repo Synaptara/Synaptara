@@ -12,30 +12,29 @@
 
 <br>
 
-<img src="https://media.tenor.com/36y7ERdf9rsAAAAj/persona-5.gif" width="390" align="left">
-
 <div align="center">
-  <h2>Who Am I?</h2>
+  <h2>Know About Me</h2>
 </div>
+
+<img src="https://i.postimg.cc/wj3jSKVc/52c113261b11744f4723bd107c4c40d7-removebg-preview.png" width="220" align="left" style="margin-right: 15px;">
 
 <div align="justify">
-
-I’m **Karthick**, an indie developer focused on **automation, SaaS products, and secure web applications**.
-
-I enjoy building tools that remove repetitive work and turn ideas into **real working systems**. My projects focus on **privacy, automation, and practical digital products**.
-
-Projects I build:
-
-• **HustleHubKit** – digital product platform  
-• **VoidDrop / FileGhost** – encrypted file sharing  
-• **Ghost AI** – automation tools  
-• **SecureBot** – Discord automation systems  
-
-I work across the **web stack**, building both frontend and backend systems while experimenting with **AI and automation platforms**.
-
+  I’m <strong>Karthick</strong>, an indie developer focused on <strong>automation, SaaS products, and secure web applications</strong>.
+  <br><br>
+  I enjoy building tools that remove repetitive work and turn ideas into <strong>real working systems</strong>. My projects focus on <strong>privacy, automation, and practical digital products</strong>.
+  <br><br>
+  Projects I build:
+  <br>
+  • <strong>HustleHubKit</strong> – digital product platform<br>
+  • <strong>VoidDrop / FileGhost</strong> – encrypted file sharing<br>
+  • <strong>Ghost AI</strong> – automation tools<br>
+  • <strong>SecureBot</strong> – Discord automation systems
+  <br><br>
+  I work across the <strong>web stack</strong>, building both frontend and backend systems while experimenting with <strong>AI and automation platforms</strong>.
 </div>
 
-<br><br>
+<br clear="left"/>
+<br>
 
 <div align="center">
 
@@ -58,12 +57,14 @@ I work across the **web stack**, building both frontend and backend systems whil
 <br>
 
 <div align="center">
-  <img src="./assets/images/Contributions.svg" width="50%">
+  <img src="https://i.postimg.cc/yNPcvCYh/1772710955441.png" width="50%">
   <br><br>
 </div>
 
 <div align="center">
-  [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Synaptara&theme=high-contrast&area=true&color=ff0000&line=000000&point=ffffff)](https://github.com/Synaptara)
+  <a href="https://github.com/Synaptara">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Synaptara&custom_title=My%20Contributions&hide_border=false&theme=high-contrast&border_color=000000&bg_color=transparent&radius=16&area_color=ffffff&area=true&point=ffffff&line=ffffff&days=10&text_color=ffffff&title_color=ffffff&include_all_commits=true&count_private=true" alt="Activity Graph">
+  </a>
 </div>
 
 <br><br>
@@ -71,7 +72,7 @@ I work across the **web stack**, building both frontend and backend systems whil
 <table align="center" width="100%">
   <tr>
     <td valign="top" width="45%" align="center">
-      <img src="./assets/images/Stack.svg">
+      <img src="https://i.postimg.cc/jjsJW3Qf/1772710928129.png">
       <br><br>
       <img src="https://skillicons.dev/icons?i=java,python,js,html,css" /><br>
       <img src="https://skillicons.dev/icons?i=react,nodejs,spring" /><br>
@@ -79,7 +80,9 @@ I work across the **web stack**, building both frontend and backend systems whil
     </td>
     <td valign="top" width="55%" align="center">
       <br><br>
-      [![GitHub Streak](https://streak-stats.demolab.com?user=Synaptara&theme=dark&ring=FF0000&fire=FF0000)](https://git.io/streak-stats)
+      <a href="https://git.io/streak-stats">
+        <img src="https://streak-stats.demolab.com?user=Synaptara&theme=dark&ring=FF0000&fire=FF0000" alt="GitHub Streak">
+      </a>
     </td>
   </tr>
 </table>
