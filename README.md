@@ -31,15 +31,19 @@
   <a href="https://github.com/Synaptara/File-ghost"><img src="https://img.shields.io/badge/FileGhost-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; Secure file sharing, because some code needs to self-destruct gracefully.<br>
   <a href="https://github.com/Synaptara/Gen-Ghost_v1"><img src="https://img.shields.io/badge/Gen%20Ghost%20v1-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; A Discord bot that manages my server better than I manage my sleep schedule.<br>
   <a href="https://github.com/Synaptara/QNDOCS"><img src="https://img.shields.io/badge/Qn%20Docs-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; RAG-based AI to read text files for me, because reading is hard.
+
+  
+  <hr style="border: 1px solid #333; margin-top: 10px; margin-bottom: 10px;">
 </div>
+
 
 <br clear="left"/>
 <br clear="right"/>
 
-
-
 <div align="center">
-   <h2>Connect</h2>
+  <img src="https://i.postimg.cc/TYF27Fn7/Whats-App-Image-2026-03-05-at-11-02-19-PM.jpg" width="100%"">
+  <br>
+   
   <br>
   <a href="https://github.com/Synaptara"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"></a>
   &nbsp;
@@ -52,7 +56,6 @@
 
 <br>
 
-
 > Code is never finished. It only becomes slightly less terrible over time.
 
 > Every commit I make is essentially just a small, desperate apology to my future self. Someday I will return to this codebase, look at the spaghetti I've written, and wonder who let me anywhere near a keyboard.
@@ -61,7 +64,8 @@
 <br>
 
 <div align="center">
- <h2>Contribution</h2>
+  <img src="https://i.postimg.cc/rsR3Knzs/Whats-App-Image-2026-03-05-at-11-05-19-PM.jpg" width="100%">
+  
   <br><br>
 </div>
 
@@ -69,54 +73,57 @@
   <a href="https://github.com/Synaptara">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Synaptara&title=none&hide_border=false&theme=high-contrast&border_color=000000&bg_color=transparent&radius=16&area_color=ffffff&area=true&point=ffffff&line=ffffff&days=10&text_color=ffffff&title_color=ffffff&include_all_commits=true&count_private=true" alt="Activity Graph">
   </a>
+  <p align="center">
+  <img src="https://github.com/Synaptara/Synaptara/blob/output/github-snake-dark.svg" width="100%">
+</p>
 </div>
 
 <br><br>
 
-
 <div align="center">
-  <h2>TechStack</h2>
+  <img src="https://i.postimg.cc/8PmQWYw9/Whats-App-Image-2026-03-05-at-11-05-19-PM-(1).jpg" width="100%">
   <br><br>
 
   <table align="center" style="background: transparent; border: none;">
     <tr>
       <td align="right" valign="middle" style="padding-right: 20px;">
-        <strong>Languages</strong>
+        <strong>Frontend</strong>
       </td>
       <td align="left" valign="middle">
-        <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=white">
-        <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/React.js-000000?style=for-the-badge&logo=react&logoColor=white">
+        <img src="https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logo=tailwindcss&logoColor=white">
         <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white">
         <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white">
         <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white">
+        <img src="https://img.shields.io/badge/Vite-000000?style=for-the-badge&logo=vite&logoColor=white">
       </td>
     </tr>
     <tr>
       <td align="right" valign="middle" style="padding-right: 20px;">
-        <strong>Frameworks & Libraries</strong>
+        <strong>Backend & Database</strong>
       </td>
       <td align="left" valign="middle">
-        <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white">
-        <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white">
-        <img src="https://img.shields.io/badge/Spring-000000?style=for-the-badge&logo=spring&logoColor=white">
-      </td>
-    </tr>
-    <tr>
-      <td align="right" valign="middle" style="padding-right: 20px;">
-        <strong>Tools & Platforms</strong>
-      </td>
-      <td align="left" valign="middle">
+        <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=white">
+        <img src="https://img.shields.io/badge/Spring_Boot-000000?style=for-the-badge&logo=springboot&logoColor=white">
         <img src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=white">
+        <img src="https://img.shields.io/badge/API_Integration-000000?style=for-the-badge&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td align="right" valign="middle" style="padding-right: 20px;">
+        <strong>DevOps & Tools</strong>
+      </td>
+      <td align="left" valign="middle">
         <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white">
         <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white">
         <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-        <img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=white">
+        <img src="https://img.shields.io/badge/Postman-000000?style=for-the-badge&logo=postman&logoColor=white">
+        <img src="https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+        <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white">
       </td>
     </tr>
   </table>
 </div>
 <br>
 
-<p align="center">
-  <img src="https://github.com/Synaptara/Synaptara/blob/output/github-snake-dark.svg" width="100%">
-</p>
