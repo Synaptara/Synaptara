@@ -19,18 +19,13 @@
 <img src="https://i.postimg.cc/wj3jSKVc/52c113261b11744f4723bd107c4c40d7-removebg-preview.png" width="220" align="left" style="margin-right: 15px;">
 
 <div align="justify">
-  I’m <strong>Karthick</strong>, an indie developer focused on <strong>automation, SaaS products, and secure web applications</strong>.
+  <h3>Hey there! I’m Karthick</h3>
+  I'm a B.Tech AI & Data Science undergrad currently fueled by sambar, puliyodharai, and an unhealthy obsession with minimalist dark themes. By day, I pretend to know how the universe works. By night, I write Python scripts to automate myself out of doing actual work. When I'm not writing code, I'm usually crashing helicopters in GTA V or treating my Clash of Clans village like a highly stressful Fortune 500 company.
   <br><br>
-  I enjoy building tools that remove repetitive work and turn ideas into <strong>real working systems</strong>. My projects focus on <strong>privacy, automation, and practical digital products</strong>.
-  <br><br>
-  Projects I build:
-  <br>
-  • <strong>HustleHubKit</strong> – digital product platform<br>
-  • <strong>VoidDrop / FileGhost</strong> – encrypted file sharing<br>
-  • <strong>Ghost AI</strong> – automation tools<br>
-  • <strong>SecureBot</strong> – Discord automation systems
-  <br><br>
-  I work across the <strong>web stack</strong>, building both frontend and backend systems while experimenting with <strong>AI and automation platforms</strong>.
+  <h3>Top Projects (built to avoid homework)</h3>
+  • <strong>👻 FileGhost</strong> – A secure file-sharing platform, because some secrets (and terrible code) need to self-destruct gracefully.<br>
+  • <strong>🤖 Gen Ghost v1</strong> – A Discord automation bot hopped up on the Groq API. It manages my server better than I manage my sleep schedule.<br>
+  • <strong>🧠Qn Docs</strong> – A RAG-based Q&A tool for text files using Groq. Basically, I got too lazy to read my own documents, so I built an AI to interrogate them for me.
 </div>
 
 <br clear="left"/>
