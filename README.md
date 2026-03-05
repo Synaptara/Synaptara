@@ -113,4 +113,8 @@
     </tr>
   </table>
 </div>
-<br><br>
+<br>
+
+<p align="center">
+  <img src="https://github.com/Synaptara/Synaptara/blob/output/github-snake-dark.svg" width="100%">
+</p>
