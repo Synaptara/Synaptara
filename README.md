@@ -16,20 +16,27 @@
   <h2>Know About Me</h2>
 </div>
 
-<img src="https://i.postimg.cc/wj3jSKVc/52c113261b11744f4723bd107c4c40d7-removebg-preview.png" width="220" align="left" style="margin-right: 15px;">
+<img src="https://i.postimg.cc/wj3jSKVc/52c113261b11744f4723bd107c4c40d7-removebg-preview.png" width="210" align="left" style="margin-right: 15px;">
 
 <div align="justify">
   <h3>Hey there! I’m Karthick</h3>
-  I'm a B.Tech AI & Data Science undergrad currently fueled by sambar, puliyodharai, and an unhealthy obsession with minimalist dark themes. By day, I pretend to know how the universe works. By night, I write Python scripts to automate myself out of doing actual work. When I'm not writing code, I'm usually crashing helicopters in GTA V or treating my Clash of Clans village like a highly stressful Fortune 500 company.
+  I'm an AI & Data Science undergrad fueled by sambar and an unhealthy obsession with minimalist dark themes. By day, I pretend to understand the universe. By night, I write Python scripts to automate myself out of doing actual work. When I'm not coding, I'm usually crashing helicopters in GTA V or treating my Clash of Clans village like a highly stressful Fortune 500 company.
   <br><br>
-  <h3>Top Projects (built to avoid homework)</h3>
-  • <strong>👻 FileGhost</strong> – A secure file-sharing platform, because some secrets (and terrible code) need to self-destruct gracefully.<br>
-  • <strong>🤖 Gen Ghost v1</strong> – A Discord automation bot hopped up on the Groq API. It manages my server better than I manage my sleep schedule.<br>
-  • <strong>🧠Qn Docs</strong> – A RAG-based Q&A tool for text files using Groq. Basically, I got too lazy to read my own documents, so I built an AI to interrogate them for me.
+  
+  <hr style="border: 1px solid #333; margin-top: 10px; margin-bottom: 10px;">
+  
+  <img src="https://i.postimg.cc/dVkFKpH4/1000021660-removebg-preview.png" width="170" align="right" style="margin-left: 15px;">
+  
+  <h3>Top Projects (built to avoid manual labor)</h3>
+  <a href="https://github.com/Synaptara/File-ghost"><img src="https://img.shields.io/badge/FileGhost-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; Secure file sharing, because some code needs to self-destruct gracefully.<br>
+  <a href="https://github.com/Synaptara/Gen-Ghost_v1"><img src="https://img.shields.io/badge/Gen%20Ghost%20v1-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; A Discord bot that manages my server better than I manage my sleep schedule.<br>
+  <a href="https://github.com/Synaptara/QNDOCS"><img src="https://img.shields.io/badge/Qn%20Docs-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; RAG-based AI to read text files for me, because reading is hard.
 </div>
 
 <br clear="left"/>
-<br>
+<br clear="right"/>
+
+
 
 <div align="center">
    <h2>Connect</h2>
@@ -45,16 +52,16 @@
 
 <br>
 
-<img src="https://i.postimg.cc/dVkFKpH4/1000021660-removebg-preview.png" width="80" align="left">
 
-> Code is never finished.  
-> It only becomes **slightly less terrible over time**.
+> Code is never finished. It only becomes slightly less terrible over time.
+
+> Every commit I make is essentially just a small, desperate apology to my future self. Someday I will return to this codebase, look at the spaghetti I've written, and wonder who let me anywhere near a keyboard.
 
 <br clear="right"/>
 <br>
 
 <div align="center">
-  <img src="https://i.postimg.cc/SKsvhh1H/20260305-185249.png" width="100%">
+ <h2>Contribution</h2>
   <br><br>
 </div>
 
