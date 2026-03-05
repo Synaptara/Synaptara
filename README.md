@@ -3,11 +3,11 @@
 </a>
 
 <div align="center">
-  <a href="https://api.github-star-counter.workers.dev/user/Synaptara"><img width="120px" alt="Stars" title="Stars Profile" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=000000&labelColor=000000&logoColor=ffffff&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/Synaptara" /></a>
+  <a href="https://github.com/Synaptara?tab=repositories"><img alt="Stars" title="Stars Profile" src="https://img.shields.io/github/stars/Synaptara?style=for-the-badge&color=000000&labelColor=000000&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiPjwvcGF0aD48L3N2Zz4=" /></a>
   &nbsp;
-  <a href="https://github.com/Synaptara?tab=repositories"><img width="111px" alt="forks" title="Forks Repository" src="https://custom-icon-badges.demolab.com/github/forks/Synaptara/Synaptara?color=000000&logo=fork&style=for-the-badge&logoColor=white&labelColor=000000" /></a>
+  <a href="https://github.com/Synaptara?tab=repositories"><img alt="Forks" title="Forks Repository" src="https://img.shields.io/github/forks/Synaptara/Synaptara?style=for-the-badge&color=000000&labelColor=000000&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTUgNS4zNzJ2Ljg3OGMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDQuNWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtLjg3OGEyLjI1IDIuMjUgMCAxIDEgMS41IDB2Ljg3OGEyLjI1IDIuMjUgMCAwIDEtMi4yNSAyLjI1aC0xLjV2Mi4xMjhhMi4yNTEgMi4yNTEgMCAxIDEtMS41IDBWOC41aC0xLjVBMi4yNSAyLjI1IDAgMCAxIDMuNSA2LjI1di0uODc4YTIuMjUgMi4yNSAwIDEgMSAxLjUgMFpNNSAzLjI1YS43NS43NSAwIDEgMC0xLjUgMCAuNzUuNzUgMCAwIDAgMS41IDBabTYuNzUuNzVhLjc1Ljc1IDAgMSAwIDAtMS41Ljc1Ljc1IDAgMCAwIDAgMS41Wm0tMyA4Ljc1YS43NS43NSAwIDEgMC0xLjUgMCAuNzUuNzUgMCAwIDAgMS41IDBaIj48L3BhdGg+PC9zdmc+" /></a>
   &nbsp;
-  <a href="https://github.com/Synaptara?tab=followers"><img width="150px" alt="Followers" title="Github Followers" src="https://custom-icon-badges.herokuapp.com/github/followers/Synaptara?color=000000&labelColor=000000&style=for-the-badge&logo=person-add&label=Followers&logoColor=ffffff" /></a>
+  <a href="https://github.com/Synaptara?tab=followers"><img alt="Followers" title="Github Followers" src="https://img.shields.io/github/followers/Synaptara?style=for-the-badge&color=000000&labelColor=000000&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIgNS41YTMuNSAzLjUgMCAxIDEgNS44OTggMi41NDkgNS41MDggNS41MDggMCAwIDEgMy4wMzQgNC4wODQuNzUuNzUgMCAxIDEtMS40ODIuMjM1IDQgNCAwIDAgMC03LjkgMCAuNzUuNzUgMCAwIDEtMS40ODItLjIzNkE1LjUwNyA1LjUwNyAwIDAgMSAzLjEwMiA4LjA1IDMuNDkzIDMuNDkzIDAgMCAxIDIgNS41Wk0xMSA0YS43NS43NSAwIDEgMCAwIDEuNSAxLjUgMS41IDAgMCAxIC42NjYgMi44NDQuNzUuNzUgMCAwIDAtLjQxNi42NzJ2LjM1MmEuNzUuNzUgMCAwIDAgLjU3NC43M2MxLjIuMjg5IDIuMTYyIDEuMiAyLjUyMiAyLjM3MmEuNzUuNzUgMCAxIDAgMS40MzQtLjQ0IDUuMDEwIDUuMDEwIDAgMCAwLTMuMTAyLTMuMTY4QTMgMyAwIDAgMCAxMSA0Wm0tNS41LS41YTIgMiAwIDEgMCAwIDQgMiAyIDAgMCAwIDAtNFoiPjwvcGF0aD48L3N2Zz4=" /></a>
 </div>
 
 <br>
@@ -73,7 +73,7 @@
 
 
 <div align="center">
-  <img src="https://i.postimg.cc/BnYC2w4N/20260305-185314.png" width="90%">
+  <h2>TechStack</h2>
   <br><br>
 
   <table align="center" style="background: transparent; border: none;">
