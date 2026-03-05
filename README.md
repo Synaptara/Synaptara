@@ -37,9 +37,8 @@
 <br>
 
 <div align="center">
-
-### Connect
-
+   <h2>Connect</h2>
+  <br>
   <a href="https://github.com/Synaptara"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"></a>
   &nbsp;
   <a href="https://www.linkedin.com/in/karthick-aidev/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHRpdGxlPkxpbmtlZEluPC90aXRsZT48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4=&logoColor=white"></a>
@@ -51,38 +50,67 @@
 
 <br>
 
+<img src="https://i.postimg.cc/dVkFKpH4/1000021660-removebg-preview.png" width="80" align="left">
+
 > Code is never finished.  
 > It only becomes **slightly less terrible over time**.
 
+<br clear="right"/>
 <br>
 
 <div align="center">
-  <img src="https://i.postimg.cc/yNPcvCYh/1772710955441.png" width="50%">
+  <img src="https://i.postimg.cc/SKsvhh1H/20260305-185249.png" width="100%">
   <br><br>
 </div>
 
 <div align="center">
   <a href="https://github.com/Synaptara">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Synaptara&custom_title=My%20Contributions&hide_border=false&theme=high-contrast&border_color=000000&bg_color=transparent&radius=16&area_color=ffffff&area=true&point=ffffff&line=ffffff&days=10&text_color=ffffff&title_color=ffffff&include_all_commits=true&count_private=true" alt="Activity Graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Synaptara&title=none&hide_border=false&theme=high-contrast&border_color=000000&bg_color=transparent&radius=16&area_color=ffffff&area=true&point=ffffff&line=ffffff&days=10&text_color=ffffff&title_color=ffffff&include_all_commits=true&count_private=true" alt="Activity Graph">
   </a>
 </div>
 
 <br><br>
 
-<table align="center" width="100%">
-  <tr>
-    <td valign="top" width="45%" align="center">
-      <img src="https://i.postimg.cc/jjsJW3Qf/1772710928129.png">
-      <br><br>
-      <img src="https://skillicons.dev/icons?i=java,python,js,html,css" /><br>
-      <img src="https://skillicons.dev/icons?i=react,nodejs,spring" /><br>
-      <img src="https://skillicons.dev/icons?i=mysql,git,github,vercel,figma" />
-    </td>
-    <td valign="top" width="55%" align="center">
-      <br><br>
-      <a href="https://git.io/streak-stats">
-        <img src="https://streak-stats.demolab.com?user=Synaptara&theme=dark&ring=FF0000&fire=FF0000" alt="GitHub Streak">
-      </a>
-    </td>
-  </tr>
-</table>
+
+<div align="center">
+  <img src="https://i.postimg.cc/BnYC2w4N/20260305-185314.png" width="90%">
+  <br><br>
+
+  <table align="center" style="background: transparent; border: none;">
+    <tr>
+      <td align="right" valign="middle" style="padding-right: 20px;">
+        <strong>Languages</strong>
+      </td>
+      <td align="left" valign="middle">
+        <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=white">
+        <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white">
+        <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white">
+        <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td align="right" valign="middle" style="padding-right: 20px;">
+        <strong>Frameworks & Libraries</strong>
+      </td>
+      <td align="left" valign="middle">
+        <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white">
+        <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white">
+        <img src="https://img.shields.io/badge/Spring-000000?style=for-the-badge&logo=spring&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td align="right" valign="middle" style="padding-right: 20px;">
+        <strong>Tools & Platforms</strong>
+      </td>
+      <td align="left" valign="middle">
+        <img src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=white">
+        <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white">
+        <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white">
+        <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
+        <img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=white">
+      </td>
+    </tr>
+  </table>
+</div>
+<br><br>
