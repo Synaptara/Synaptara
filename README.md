@@ -30,16 +30,14 @@
   <h3>Top Projects (built to avoid manual labor)</h3>
   <a href="https://github.com/Synaptara/File-ghost"><img src="https://img.shields.io/badge/FileGhost-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; Secure file sharing, because some code needs to self-destruct gracefully.<br>
   <a href="https://github.com/Synaptara/Gen-Ghost_v1"><img src="https://img.shields.io/badge/Gen%20Ghost%20v1-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; A Discord bot that manages my server better than I manage my sleep schedule.<br>
-  <a href="https://github.com/Synaptara/QNDOCS"><img src="https://img.shields.io/badge/Qn%20Docs-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; RAG-based AI to read text files for me, because reading is hard.
-
+  <a href="https://github.com/Synaptara/QNDOCS"><img src="https://img.shields.io/badge/Qn%20Docs-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; RAG-based AI to read text files for me, because reading is hard.<br>
+  <a href="https://github.com/Synaptara/Zlidex-ai"><img src="https://img.shields.io/badge/Zlidex%20AI-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; Prompt-to-UI generator that writes my frontend code, because centering a div is still too hard.
   
   <hr style="border: 1px solid #333; margin-top: 10px; margin-bottom: 10px;">
 </div>
 
-
 <br clear="left"/>
 <br clear="right"/>
-
 <div align="center">
   <img src="https://i.postimg.cc/TYF27Fn7/Whats-App-Image-2026-03-05-at-11-02-19-PM.jpg" width="100%"">
   <br>
