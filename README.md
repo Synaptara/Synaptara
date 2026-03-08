@@ -1,5 +1,5 @@
 <a href="https://github.com/Synaptara">
-  <img src="https://i.postimg.cc/Gt3JyDNR/20260308-195953.jpg" width="100%" alt="Synaptara Banner"/>
+  <img src="https://i.postimg.cc/5Ngvzjq6/20260308-201850-jpg.jpg" width="100%" alt="Synaptara Banner"/>
 </a>
 
 <div align="center">
