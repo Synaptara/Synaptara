@@ -1,8 +1,6 @@
 <a href="https://github.com/Synaptara">
   <img src="https://i.postimg.cc/5Ngvzjq6/20260308-201850-jpg.jpg" width="100%" alt="Synaptara Banner"/>
 </a>
-
----
 <div align="center">
   <a href="https://github.com/Synaptara?tab=repositories"><img alt="Stars" title="Stars Profile" src="https://img.shields.io/github/stars/Synaptara?style=for-the-badge&color=000000&labelColor=000000&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiPjwvcGF0aD48L3N2Zz4=" /></a>
   &nbsp;
