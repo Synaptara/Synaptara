@@ -29,7 +29,7 @@
   
   <h3>Top Projects (built to avoid manual labor)</h3>
   <a href="https://github.com/Synaptara/File-ghost"><img src="https://img.shields.io/badge/FileGhost-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; Secure file sharing, because some code needs to self-destruct gracefully.<br>
-  <a href="https://github.com/Synaptara/Gen-Ghost_v1"><img src="https://img.shields.io/badge/Gen%20Ghost%20v1-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; A Discord bot that manages my server better than I manage my sleep schedule.<br>
+  <a href="https://github.com/Synaptara/Gen-Ghost_v1"><img src="https://img.shields.io/badge/Gen%20Ghost%20v1-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; A Discord bot that manages my server better than Me<br>
   <a href="https://github.com/Synaptara/QNDOCS"><img src="https://img.shields.io/badge/Qn%20Docs-000000?style=for-the-badge&logo=github&logoColor=white" valign="middle"></a>&nbsp; RAG-based AI to read text files for me, because reading is hard.
 
   
