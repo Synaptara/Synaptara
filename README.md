@@ -29,8 +29,6 @@
       <b>React Developer & AI/DS Undergrad</b> (Class of 2026)<br><br>
       I am based in Trivandrum and deeply passionate about crafting minimalist, high-performance web applications and building efficient automated workflows.<br><br>
       Currently, I'm focusing my energy on building <b>FileGhost</b> (a privacy-centric file-sharing platform) and <b>Updrop</b> (automation tools). My technical playground revolves around React, Tailwind CSS, local AI deployments, and orchestrating n8n pipelines to automate myself out of manual labor.<br><br>
-      When I'm taking a break from the keyboard, you can probably find me trying to manage my highly stressful Clash of Clans village.
-      <br>
     </td>
     <td align="center" valign="middle" width="30%">
       <a href="https://postimg.cc/NyFKLkth">
