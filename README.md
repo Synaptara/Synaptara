@@ -1,7 +1,5 @@
 <div style="width:100%;">  
-  <img src="https://i.ibb.co/0y8P1695/20260813-184629.jpg"  
-       alt="20260813-184629"  
-       style="width:100%; height:auto; display:block;">  
+ <img src="https://i.ibb.co/KjHxgZ2S/q.jpg" alt="q" border="0" style="width:100%; height:auto; display:block;">  
 </div>  
 <br>  
 <table>  
