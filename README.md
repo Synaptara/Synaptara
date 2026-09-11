@@ -25,9 +25,7 @@
   </tr>
 </table>
 
-<br>
 
-### <img src="./assets/icons8-settings-50.png" width="28" align="absmiddle"> Projects
 
 <div style="margin: 25px 0;">
   <table width="100%" style="width: 100%;">
@@ -38,7 +36,7 @@
         - Automated video scheduling app 
       </td>
       <td width="25%" rowspan="3" align="center" valign="middle">
-        <img src="./assets/exclaim.jpg" alt="Exclaim" style="width: 100%; max-width: 180px; border-radius: 15px;">
+        <img src="./assets/see.jpg" alt="Exclaim" style="width: 100%; max-width: 180px; border-radius: 15px;">
       </td>
     </tr>
     <tr>
