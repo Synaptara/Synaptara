@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://postimg.cc/vD7Tnyq2">
-    <img src="https://i.postimg.cc/7Pd2pYg4/20260911-184554.jpg" alt="20260911-184554" style="width:100%; height:auto; display:block;" border="0">
+  <a href="#">
+    <img src="./assets/20260911_184554.jpg.jpeg" alt="Synaptara Banner" style="width:100%; height:auto; display:block; border-radius: 15px;" border="0">
   </a>
 </div>
 <br>
@@ -15,7 +15,7 @@
 
 ### Hey there! I’m Karthick <img src="./assets/icons8-so-so-48.png" width="28" align="absmiddle" style="filter: invert(100%);">
 
-<table width="100%">
+<table width="100%" style="width: 100%;">
   <tr>
     <td>
       <b>Full-Stack Developer (React & Python/Django)</b> | Class of 2026<br><br>
@@ -30,25 +30,28 @@
 ### <img src="./assets/icons8-settings-50.png" width="28" align="absmiddle"> Projects
 
 <div style="margin: 25px 0;">
-  <table width="100%">
+  <table width="100%" style="width: 100%;">
     <tr>
-      <td>
+      <td width="75%">
         <img src="./assets/icons8-one-50.png" width="20" align="absmiddle"> <b>Updrop Platform</b> 
-        <img src="./assets/icons8-share-24.png" width="18" align="absmiddle"> 
+        <a href="https://updrop.in" target="_blank"><img src="./assets/icons8-share-24.png" width="18" align="absmiddle"></a> 
         - Automated video scheduling app 
+      </td>
+      <td width="25%" rowspan="3" align="center" valign="middle">
+        <img src="./assets/exclaim.jpg" alt="Exclaim" style="width: 100%; max-width: 180px; border-radius: 15px;">
       </td>
     </tr>
     <tr>
       <td>
         <img src="./assets/icons8-two-64.png" width="20" align="absmiddle"> <b>FileGhost Application</b> 
-        <img src="./assets/icons8-share-24.png" width="18" align="absmiddle"> 
+        <a href="#" target="_blank"><img src="./assets/icons8-share-24.png" width="18" align="absmiddle"></a> 
         = Secure file sharing platform 
       </td>
     </tr>
     <tr>
       <td>
         <img src="./assets/icons8-three-64.png" width="20" align="absmiddle"> <b>GenGhost Chatbot</b> 
-        <img src="./assets/icons8-share-24.png" width="18" align="absmiddle"> 
+        <a href="#" target="_blank"><img src="./assets/icons8-share-24.png" width="18" align="absmiddle"></a> 
         - Discord repository management bot 
       </td>
     </tr>
