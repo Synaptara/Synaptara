@@ -1,7 +1,9 @@
 <div style="width:100%;">  
-  <img src="https://i.ibb.co/0y8P1695/20260813-184629.jpg"  
-       alt="20260813-184629"  
-       style="width:100%; height:auto; display:block;">  
+  <a href="https://postimg.cc/vD7Tnyq2">
+    <img src="https://i.postimg.cc/7Pd2pYg4/20260911-184554.jpg"  
+         alt="20260911-184554"  
+         style="width:100%; height:auto; display:block;" border="0">
+  </a>
 </div>  
 <br>  
 <table>  
@@ -29,4 +31,4 @@
       Currently, I'm focusing my energy on building <b>FileGhost</b> (a privacy-centric file-sharing platform) and <b>Updrop</b> (automation tools). My daily technical playground revolves around <b>React, Python, Django, and Tailwind CSS</b>. Whether it's designing secure RESTful APIs or crafting seamless frontend experiences, I enjoy turning complex problems into elegant web solutions.<br><br>  
     </td>  
   </tr>  
-</table>  
+</table>
