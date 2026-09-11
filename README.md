@@ -13,7 +13,7 @@
 </div>
 <br>
 
-### Hey there! I’m Karthick <img src="./assets/icons8-so-so-50.png" width="28" align="absmiddle" style="filter: invert(100%);">
+### Hey there! I’m Karthick <img src="./assets/icons8-so-so-48.png" width="28" align="absmiddle" style="filter: invert(100%);">
 
 <table width="100%">
   <tr>
