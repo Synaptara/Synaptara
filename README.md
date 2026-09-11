@@ -49,7 +49,7 @@
     <tr>
       <td>
         <img src="./assets/icons8-three-64.png" width="20" align="absmiddle"> <b>GenGhost Chatbot</b> 
-        <a href="#" target="_blank"><img src="./assets/icons8-share-24.png" width="18" align="absmiddle"></a> 
+        <a href="https://github.com/Synaptara/Gen-Ghost_v1" target="_blank"><img src="./assets/icons8-share-24.png" width="18" align="absmiddle"></a> 
         - Discord repository management bot 
       </td>
     </tr>
