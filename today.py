@@ -215,7 +215,6 @@ def inject_ascii(svg_filename, txt_filename):
         tree = etree.parse(svg_filename)
         root = tree.getroot()
         
-        # Locate the ASCII art placeholder ID
         ascii_element = root.find(".//*[@id='ascii_art']")
         if ascii_element is not None:
             ascii_element.text = ascii_content
@@ -227,14 +226,17 @@ def inject_ascii(svg_filename, txt_filename):
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, 'commit_data', commit_data, 22)
-    justify_format(root, 'star_data', star_data, 14)
-    justify_format(root, 'repo_data', repo_data, 6)
-    justify_format(root, 'contrib_data', contrib_data)
-    justify_format(root, 'follower_data', follower_data, 10)
-    justify_format(root, 'loc_data', loc_data[2], 9)
-    justify_format(root, 'loc_add', loc_data[0])
+    # Math paddings specific to the new layout
+    justify_format(root, 'age_data', age_data, 68)
+    justify_format(root, 'repo_data', repo_data, 10)
+    find_and_replace(root, 'contrib_data', str(contrib_data))
+    justify_format(root, 'star_data', star_data, 30)
+    justify_format(root, 'commit_data', commit_data, 44)
+    justify_format(root, 'follower_data', follower_data, 8)
+    justify_format(root, 'loc_data', loc_data[2], 33)
+    find_and_replace(root, 'loc_add', str(loc_data[0]))
     justify_format(root, 'loc_del', loc_data[1], 7)
+    
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 def justify_format(root, element_id, new_text, length=0):
@@ -307,6 +309,7 @@ if __name__ == '__main__':
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
     
+    # NOTE: Set your actual birthdate below (Year, Month, Day)
     age_data, age_time = perf_counter(daily_readme, datetime.datetime(2004, 1, 1)) 
     formatter('age calculation', age_time)
     
@@ -322,12 +325,9 @@ if __name__ == '__main__':
     for index in range(len(total_loc)-1): 
         total_loc[index] = '{:,}'.format(total_loc[index])
 
-    # 1. Update the hidden GitHub API stats
     svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
     svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
 
-    # 2. Inject your custom ASCII profile image
-    # Note: Ensure your text file is named "profile.txt"
     inject_ascii('dark_mode.svg', 'profile.txt')
     inject_ascii('light_mode.svg', 'profile.txt')
 
