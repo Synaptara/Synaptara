@@ -4,11 +4,11 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 4 * * *" # Runs daily at 04:00 UTC
-  workflow_dispatch: # Allows you to manually click "Run workflow" on GitHub
+    - cron: "0 4 * * *" 
+  workflow_dispatch: 
 
 permissions:
-  contents: write # Required for the bot to push the updated SVGs back to the repo
+  contents: write 
 
 jobs:
   build:
