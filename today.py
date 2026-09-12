@@ -95,21 +95,25 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
     variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
     request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS) 
     if request.status_code == 200:
-        if request.json()['data']['repository']['defaultBranchRef'] != None: 
-            return loc_counter_one_repo(owner, repo_name, data, cache_comment, request.json()['data']['repository']['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)
-        else: return 0
+        repo_data = request.json().get('data', {}).get('repository')
+        if repo_data and repo_data.get('defaultBranchRef'):
+            history = repo_data['defaultBranchRef']['target']['history']
+            return loc_counter_one_repo(owner, repo_name, data, cache_comment, history, addition_total, deletion_total, my_commits)
+        else:
+            return 0
     force_close_file(data, cache_comment) 
     if request.status_code == 403:
         raise Exception('Too many requests! Anti-abuse limit hit.')
-    raise Exception('recursive_loc() has failed with a', request.status_code, request.text, QUERY_COUNT)
+    raise Exception('recursive_loc() failed', request.status_code, request.text, QUERY_COUNT)
 
 def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, addition_total, deletion_total, my_commits):
     if history and history.get('edges'):
         for edge in history['edges']:
-            if edge and edge.get('node') and edge['node'].get('author') and edge['node']['author'].get('user') == OWNER_ID:
-                my_commits += 1
-                addition_total += edge['node']['additions']
-                deletion_total += edge['node']['deletions']
+            if edge and edge.get('node') and edge['node'].get('author') and edge['node']['author'].get('user'):
+                if edge['node']['author']['user'].get('id') == OWNER_ID['id']:
+                    my_commits += 1
+                    addition_total += edge['node'].get('additions', 0)
+                    deletion_total += edge['node'].get('deletions', 0)
 
     if not history or not history.get('edges') or not history.get('pageInfo', {}).get('hasNextPage'):
         return addition_total, deletion_total, my_commits
@@ -140,11 +144,13 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
     }'''
     variables = {'owner_affiliation': owner_affiliation, 'login': USER_NAME, 'cursor': cursor}
     request = simple_request(loc_query.__name__, query, variables)
-    if request.json()['data']['user']['repositories']['pageInfo']['hasNextPage']:   
-        edges += request.json()['data']['user']['repositories']['edges']            
-        return loc_query(owner_affiliation, comment_size, force_cache, request.json()['data']['user']['repositories']['pageInfo']['endCursor'], edges)
+    repos_data = request.json()['data']['user']['repositories']
+    
+    if repos_data['pageInfo']['hasNextPage']:   
+        edges += repos_data['edges']            
+        return loc_query(owner_affiliation, comment_size, force_cache, repos_data['pageInfo']['endCursor'], edges)
     else:
-        return cache_builder(edges + request.json()['data']['user']['repositories']['edges'], comment_size, force_cache)
+        return cache_builder(edges + repos_data['edges'], comment_size, force_cache)
 
 def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
     cached = True 
@@ -168,17 +174,21 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
 
     cache_comment = data[:comment_size] 
     data = data[comment_size:] 
+    
     for index in range(min(len(edges), len(data))):
         if not edges[index] or not edges[index].get('node'):
             continue
         repo_hash, commit_count, *__ = data[index].split()
         if repo_hash == hashlib.sha256(edges[index]['node']['nameWithOwner'].encode('utf-8')).hexdigest():
             try:
-                if int(commit_count) != edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']:
-                    owner, repo_name = edges[index]['node']['nameWithOwner'].split('/')
-                    loc = recursive_loc(owner, repo_name, data, cache_comment)
-                    data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
-            except (TypeError, KeyError): 
+                branch_ref = edges[index]['node'].get('defaultBranchRef')
+                if branch_ref:
+                    api_commit_count = branch_ref['target']['history']['totalCount']
+                    if int(commit_count) != api_commit_count:
+                        owner, repo_name = edges[index]['node']['nameWithOwner'].split('/')
+                        loc = recursive_loc(owner, repo_name, data, cache_comment)
+                        data[index] = repo_hash + ' ' + str(api_commit_count) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
+            except (TypeError, KeyError, AttributeError): 
                 data[index] = repo_hash + ' 0 0 0 0\n'
     
     with open(filename, 'w') as f:
@@ -217,26 +227,10 @@ def stars_counter(data):
                 total_stars += edge['node']['stargazers']['totalCount']
     return total_stars
 
-def inject_ascii(svg_filename, txt_filename):
-    try:
-        with open(txt_filename, 'r', encoding='utf-8') as f:
-            ascii_content = f.read()
-        
-        tree = etree.parse(svg_filename)
-        root = tree.getroot()
-        
-        ascii_element = root.find(".//*[@id='ascii_art']")
-        if ascii_element is not None:
-            ascii_element.text = ascii_content
-            
-        tree.write(svg_filename, encoding='utf-8', xml_declaration=True)
-    except FileNotFoundError:
-        print(f"Warning: {txt_filename} not found. Skipping ASCII injection.")
-
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
     tree = etree.parse(filename)
     root = tree.getroot()
-    # Padding math specifically tuned to your 1200px responsive SVG
+    # Math padding tailored for the 1200px format
     justify_format(root, 'age_data', age_data, 68)
     justify_format(root, 'repo_data', repo_data, 10)
     find_and_replace(root, 'contrib_data', str(contrib_data))
@@ -339,9 +333,6 @@ if __name__ == '__main__':
 
     svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
     svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
-
-    inject_ascii('dark_mode.svg', 'profile.txt')
-    inject_ascii('light_mode.svg', 'profile.txt')
 
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
           '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
