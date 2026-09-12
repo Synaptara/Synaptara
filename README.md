@@ -42,7 +42,7 @@
     <tr>
       <td>
         <img src="./assets/icons8-two-64.png" width="20" align="absmiddle"> <b>FileGhost Application</b> 
-        <a href="#" target="_blank"><img src="./assets/icons8-share-24.png" width="18" align="absmiddle"></a> 
+        <a href="https://file-ghost.vercel.app/" target="_blank"><img src="./assets/icons8-share-24.png" width="18" align="absmiddle"></a> 
         = Secure file sharing platform 
       </td>
     </tr>
