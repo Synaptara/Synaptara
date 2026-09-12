@@ -224,13 +224,13 @@ def stars_counter(data):
     if data:
         for edge in data:
             if edge and edge.get('node') and edge['node'].get('stargazers'):
-                total_stars += edge['node']['stargazers']['totalCount']
+                total_stars += edge['node']['stargazers'].get('totalCount', 0)
     return total_stars
 
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
     tree = etree.parse(filename)
     root = tree.getroot()
-    # Math padding tailored for the 1200px format
+    # Math padding tailored for the 1200px centered format
     justify_format(root, 'age_data', age_data, 68)
     justify_format(root, 'repo_data', repo_data, 10)
     find_and_replace(root, 'contrib_data', str(contrib_data))
@@ -316,7 +316,7 @@ if __name__ == '__main__':
     formatter('account data', user_time)
     
     # NOTE: Set your actual birthdate below (Year, Month, Day)
-    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2004, 1, 1)) 
+    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2004, 12, 04)) 
     formatter('age calculation', age_time)
     
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
