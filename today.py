@@ -104,15 +104,17 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
     raise Exception('recursive_loc() has failed with a', request.status_code, request.text, QUERY_COUNT)
 
 def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, addition_total, deletion_total, my_commits):
-    for node in history['edges']:
-        if node['node']['author']['user'] == OWNER_ID:
-            my_commits += 1
-            addition_total += node['node']['additions']
-            deletion_total += node['node']['deletions']
+    if history and history.get('edges'):
+        for edge in history['edges']:
+            if edge and edge.get('node') and edge['node'].get('author') and edge['node']['author'].get('user') == OWNER_ID:
+                my_commits += 1
+                addition_total += edge['node']['additions']
+                deletion_total += edge['node']['deletions']
 
-    if history['edges'] == [] or not history['pageInfo']['hasNextPage']:
+    if not history or not history.get('edges') or not history.get('pageInfo', {}).get('hasNextPage'):
         return addition_total, deletion_total, my_commits
-    else: return recursive_loc(owner, repo_name, data, cache_comment, addition_total, deletion_total, my_commits, history['pageInfo']['endCursor'])
+    else: 
+        return recursive_loc(owner, repo_name, data, cache_comment, addition_total, deletion_total, my_commits, history['pageInfo']['endCursor'])
 
 def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None, edges=[]):
     query_count('loc_query')
@@ -166,7 +168,9 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
 
     cache_comment = data[:comment_size] 
     data = data[comment_size:] 
-    for index in range(len(edges)):
+    for index in range(min(len(edges), len(data))):
+        if not edges[index] or not edges[index].get('node'):
+            continue
         repo_hash, commit_count, *__ = data[index].split()
         if repo_hash == hashlib.sha256(edges[index]['node']['nameWithOwner'].encode('utf-8')).hexdigest():
             try:
@@ -174,15 +178,18 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
                     owner, repo_name = edges[index]['node']['nameWithOwner'].split('/')
                     loc = recursive_loc(owner, repo_name, data, cache_comment)
                     data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
-            except TypeError: 
+            except (TypeError, KeyError): 
                 data[index] = repo_hash + ' 0 0 0 0\n'
+    
     with open(filename, 'w') as f:
         f.writelines(cache_comment)
         f.writelines(data)
+        
     for line in data:
         loc = line.split()
-        loc_add += int(loc[3])
-        loc_del += int(loc[4])
+        if len(loc) >= 5:
+            loc_add += int(loc[3])
+            loc_del += int(loc[4])
     return [loc_add, loc_del, loc_add - loc_del, cached]
 
 def flush_cache(edges, filename, comment_size):
@@ -192,8 +199,9 @@ def flush_cache(edges, filename, comment_size):
             data = f.readlines()[:comment_size] 
     with open(filename, 'w') as f:
         f.writelines(data)
-        for node in edges:
-            f.write(hashlib.sha256(node['node']['nameWithOwner'].encode('utf-8')).hexdigest() + ' 0 0 0 0\n')
+        for edge in edges:
+            if edge and edge.get('node'):
+                f.write(hashlib.sha256(edge['node']['nameWithOwner'].encode('utf-8')).hexdigest() + ' 0 0 0 0\n')
 
 def force_close_file(data, cache_comment):
     filename = 'cache/'+hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest()+'.txt'
@@ -203,11 +211,13 @@ def force_close_file(data, cache_comment):
 
 def stars_counter(data):
     total_stars = 0
-    for node in data: total_stars += node['node']['stargazers']['totalCount']
+    if data:
+        for edge in data:
+            if edge and edge.get('node') and edge['node'].get('stargazers'):
+                total_stars += edge['node']['stargazers']['totalCount']
     return total_stars
 
 def inject_ascii(svg_filename, txt_filename):
-    """Reads the ASCII text file and injects it into the SVG."""
     try:
         with open(txt_filename, 'r', encoding='utf-8') as f:
             ascii_content = f.read()
@@ -226,7 +236,7 @@ def inject_ascii(svg_filename, txt_filename):
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
     tree = etree.parse(filename)
     root = tree.getroot()
-    # Math paddings specific to the new layout
+    # Padding math specifically tuned to your 1200px responsive SVG
     justify_format(root, 'age_data', age_data, 68)
     justify_format(root, 'repo_data', repo_data, 10)
     find_and_replace(root, 'contrib_data', str(contrib_data))
@@ -264,7 +274,9 @@ def commit_counter(comment_size):
         data = f.readlines()
     data = data[comment_size:] 
     for line in data:
-        total_commits += int(line.split()[2])
+        loc = line.split()
+        if len(loc) >= 3:
+            total_commits += int(loc[2])
     return total_commits
 
 def user_getter(username):
