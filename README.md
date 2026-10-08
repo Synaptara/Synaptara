@@ -1,18 +1,3 @@
-<div align="center">
-  <a href="#">
-    <img src="./assets/20260911_184554.jpg.jpeg" alt="Synaptara Banner" style="width:100%; height:auto; display:block; border-radius: 15px;" border="0">
-  </a>
-</div>
-<br>
-
-<div align="center">
-  <a href="https://updrop.in"><img src="https://img.shields.io/badge/Updrop.in-white?style=for-the-badge&logo=vercel&logoColor=black"></a> &nbsp;
-  <a href="https://www.linkedin.com/in/karthick-aidev/"><img src="https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=black"></a> &nbsp;
-  <a href="mailto:karthick.aidev@gmail.com"><img src="https://img.shields.io/badge/Gmail-white?style=for-the-badge&logo=gmail&logoColor=black"></a> &nbsp;
-  <a href="https://drive.google.com/file/d/1W8HDDCPTHcm6hw8zbzDeKoxIxoKsz_VN/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-white?style=for-the-badge&logo=googledrive&logoColor=black"></a>
-</div>
-<br>
-
 ### Hey there! I’m Karthick <img src="./assets/icons8-so-so-48.png" width="28" align="absmiddle" style="filter: invert(100%);">
 
 <table width="100%" style="width: 100%;">
@@ -54,4 +39,10 @@
       </td>
     </tr>
   </table>
+</div>
+<div align="center">
+  <a href="https://updrop.in"><img src="https://img.shields.io/badge/Updrop.in-white?style=for-the-badge&logo=vercel&logoColor=black"></a> &nbsp;
+  <a href="https://www.linkedin.com/in/karthick-aidev/"><img src="https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=black"></a> &nbsp;
+  <a href="mailto:karthick.aidev@gmail.com"><img src="https://img.shields.io/badge/Gmail-white?style=for-the-badge&logo=gmail&logoColor=black"></a> &nbsp;
+  <a href="https://drive.google.com/file/d/1W8HDDCPTHcm6hw8zbzDeKoxIxoKsz_VN/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-white?style=for-the-badge&logo=googledrive&logoColor=black"></a>
 </div>
